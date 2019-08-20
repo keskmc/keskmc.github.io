@@ -26,14 +26,16 @@ html, body, #app {
     --background-color: #A85263;
     --text-color: #ffffff;
     --accent-color: #EF8354;
-
-    --background-color: #6491bf;
-    --text-color: #ffffff;
-    --accent-color: #c5c378; */
-
+    
     --background-color: #81a7cd;
     --text-color: #ffffff;
     --accent-color: #c0d08d;
+
+    */
+    --background-color: #6491bf;
+    --text-color: #ffffff;
+    --accent-color: #c5c378;
+
     }
 body{
     background-color: var(--background-color); 
