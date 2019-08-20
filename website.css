@@ -22,12 +22,19 @@ html, body, #app {
     --background-color: #EF8354;
     --text-color: #ffffff;
     --accent-color: #A85263;
-    */ 
    
     --background-color: #A85263;
     --text-color: #ffffff;
     --accent-color: #EF8354;
-}
+
+    --background-color: #6491bf;
+    --text-color: #ffffff;
+    --accent-color: #c5c378;
+
+    --background-color: #81a7cd;
+    --text-color: #ffffff;
+    --accent-color: #c0d08d;
+    }
 body{
     background-color: var(--background-color); 
 }
@@ -65,9 +72,10 @@ h1{
     font-size: 44px;
     color: var(--text-color);
     margin-bottom: 48px;
+    font-weight:bold;
 }
 p{
-    font-family: 'Lato', 'Bai Jamjuree', sans-serif;
+    font-family: 'Bai Jamjuree', sans-serif;
     font-size: 28px;
     line-height: 1.25;
     color: var(--text-color);
