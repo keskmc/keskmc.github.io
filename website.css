@@ -34,12 +34,18 @@ html, body, #app {
     --background-color: #6491bf;
     --text-color: #ffffff;
     --accent-color: #c5c378;
-    */
     
     --background-color: #f7c190;
     --text-color: #393939;
     --accent-color: #e1eeb8;
-    }
+    --hover-color: #e1eeb8;
+    */
+    
+    --background-color: #ffefbe;
+    --text-color: #393939;
+    --accent-color: #e1eeb8;
+    --hover-color: #e1eeb8;
+ }
 
 body{
     background-color: var(--background-color); 
@@ -50,29 +56,37 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
+#headings{
+    text-align: right;
+    font-size: 20px;
+}
+
 .content {
-    margin-top: -64px;
-    max-width: 800px;
     padding: 10%;
+    margin-top: -64px;
+    /* max-width: 800px;*/
     padding-bottom: 15%;
 }
-.icons {
+a.icons {
     margin-top: 48px; 
 }
-.icons a svg {
-    height: 24px;
+a.icon svg {
+    height: 20px;
     fill: var(--text-color);
 }
-.icons a {
+a.icon{
     box-shadow: none;
+    display: inline-flex;
+    align-items: center;
     padding-right: 16px;
 }
-.icons a:hover {
+a.icon span{
+    margin-left: 8px;
+}
+a.icon:hover {
     box-shadow: none;
     background-color: transparent;
-}
-.icons a:hover svg{
-    fill: var(--accent-color);
 }
 h1{
     font-family: 'Lato', monospace;
@@ -88,20 +102,40 @@ p{
     color: var(--text-color);
     margin:24px 0;
 }
-a {
+p#headings a {
     color: var(--text-color);
     text-decoration: none;
-    box-shadow: inset 0 -20px 0 0 var(--accent-color);
 }
-a:hover {          
+p#headings a:active {
+    color: var(--text-color);
     text-decoration: none;
-    background-color: #c2d096;
-    box-shadow: inset 0 -7px 0 0 #c2d096;
 }
-a:active {
+p#headings a:hover {
+    color: var(--text-color);
+    text-decoration: none;
+    background-color: var(--hover-color);
+}
+p#headings a:visited {
+    color: var(--text-color);
+    text-decoration: none;
+}
+p.block{
+    max-width: 800px;
+}
+p.block a {
+    color: var(--text-color);
+    text-decoration: none;
+    box-shadow: inset 0 -0.7em 0 0 var(--accent-color);
+}
+p.block a:hover {          
+    text-decoration: none;
+    background-color: var(--hover-color);
+    box-shadow: inset 0 -0.7em 0 0 var(--hover-color);
+}
+p.block a:active {
     color: var(--text-color) 
 }
-a:visited {
+p.block a:visited {
     color: var(--text-color);
 }
 @media only screen and (max-width:380px) {
