@@ -2,50 +2,10 @@ html, body, #app {
     height: 100%; margin: 0;
 }
 :root{
-    /*
-    green
-    --background-color: #80ae4c;
-    --text-color: #ffffff;
-    --accent-color: #bbbbbb;
-   
-    blue 
-    --background-color: #64a3e3;
-    --text-color: #ffffff;
-    --accent-color: #1776d6;
-    
-    black and white
     --background-color: #ffffff;
-    --text-color: #000000;
-    --accent-color: #64a3e3;
-   
-    orange
-    --background-color: #EF8354;
-    --text-color: #ffffff;
-    --accent-color: #A85263;
-   
-    dark pink
-    --background-color: #A85263;
-    --text-color: #ffffff;
-    --accent-color: #EF8354;
-    
-    --background-color: #81a7cd;
-    --text-color: #ffffff;
-    --accent-color: #c0d08d;
-
-    --background-color: #6491bf;
-    --text-color: #ffffff;
-    --accent-color: #c5c378;
-    
-    --background-color: #f7c190;
     --text-color: #393939;
-    --accent-color: #e1eeb8;
-    --hover-color: #e1eeb8;
-    */
-    
-    --background-color: #cfcf7d;
-    --text-color: #393939;
-    --accent-color: #ccdaa1;
-    --hover-color: #e1eeb8;
+    --accent-color: #e1f0ff;
+    --hover-color: #94c2f0;
  }
 
 body{
